@@ -6,7 +6,7 @@ function myFunction() {
 $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop:true,
-        nav: false,
+        nav: true,
         responsive:{
             0:{
                 items:1
