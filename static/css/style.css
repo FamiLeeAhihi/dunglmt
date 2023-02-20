@@ -94,7 +94,7 @@ h1{
     height: 5px;
     background: #e4e2dd;
     display: inline-block;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 0rem 1rem;
 }
 .separator1 {
     width: 50rem;
@@ -200,13 +200,24 @@ h1{
     position: inherit;
     padding-bottom: 3.5rem;
 }
-.line{      
+.line1{      
     display: block;
     margin: auto;
+}
+.line2{      
+    display: block;
+    margin: auto;
+    height: 1rem;
+}
+.line1{      
+    display: block;
+    margin: auto;
+    height: 0.5rem;
 }
 .line-desc{
     display: flex;
     padding: 4rem 0rem 4rem 0rem;
+    justify-content: center;
 }
 .titlegame{
     display: flex;
@@ -312,4 +323,88 @@ h1{
 .box-top{
     display: flex;
     justify-content: flex-end;
+}
+@media(max-width: 360px){
+    .line-desc {
+        padding: 3rem 0rem 3rem 0rem;
+    }
+    .line-desc .line1{
+        height: 0.2rem !important;
+    }
+    .line2 {
+        height: 0.5rem!important;
+    }
+    .line3{
+        height: 0.3rem !important;
+    }
+    .icongame {
+        width: 1.5rem;
+        object-fit: contain;
+        margin-left: 2rem;
+    }
+    .gif{
+        width: 1.5rem;
+    }
+    .contact a img {
+        width: 10px;
+        height: 10px;
+    }
+    .contact a span {
+        font-size: 10px;
+    }
+
+}
+@media(max-width: 767px){
+    .line-desc {
+        padding: 3rem 0rem 3rem 0rem;
+    }
+    .line-desc img{
+        height: 40px;
+    }
+    .line-desc .line1{
+        height: 0.2rem !important;
+    }
+    .line2 {
+        height: 0.5rem!important;
+    }
+    .line3{
+        height: 0.3rem !important;
+    }
+    .skill_gif h1 {
+        font-size: 1.5rem !important;
+    }
+    .namegame{
+        font-size: 1rem !important;
+    }
+    .icongame {
+        width: 1.5rem;
+        object-fit: contain;
+        margin-left: 2rem;
+    }
+    .gif{
+        width: 1.5rem;
+    }
+    .contact a img {
+        width: 10px;
+        height: 10px;
+    }
+    .contact a span {
+        font-size: 10px;
+    }
+    .line-desc {
+        padding: 3rem 0rem 3rem 0rem;
+    }
+    .seemoreicon {
+        width: 0.75rem;
+    }
+    .morelink {
+        font-size: 10px;
+    }
+    .separator3 {
+        width: 11rem;
+        height: 5px;
+        background: #e4e2dd;
+        display: inline-block;
+        margin: 1rem 0rem 1rem 0rem;
+    }
 }
