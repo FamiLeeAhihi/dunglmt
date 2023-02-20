@@ -1,5 +1,5 @@
 html, body{
-    background: #2b2b2b;
+    background: #282828;
     font-family: 'Courier New', Courier, monospace;
 }
 a{
@@ -9,7 +9,7 @@ a{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    background: #2b2b2b;
+    background: #282828;
     color: #e4e2dd;
 }
 .img_ava{
@@ -200,19 +200,13 @@ h1{
     position: inherit;
     padding-bottom: 3.5rem;
 }
-.owl-theme .owl-nav {
-
-} 
-.owl-nav .owl-prev{
-  
-}
 .line{      
     display: block;
     margin: auto;
 }
 .line-desc{
     display: flex;
-    padding: 3rem 20rem;
+    padding: 4rem 0rem 4rem 0rem;
 }
 .titlegame{
     display: flex;
