@@ -94,7 +94,7 @@ h1{
     height: 5px;
     background: #e4e2dd;
     display: inline-block;
-    margin: 1rem 1rem 0rem 1rem;
+    margin: 1rem 9rem 0rem 9rem;
 }
 .separator1 {
     width: 50rem;
@@ -406,5 +406,8 @@ h1{
         background: #e4e2dd;
         display: inline-block;
         margin: 1rem 0rem 1rem 0rem;
+    }
+    .separator0 {
+        margin: 1rem 1rem 1rem 1rem;
     }
 }
