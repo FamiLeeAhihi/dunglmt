@@ -50,7 +50,7 @@ a{
     height: auto;
     word-break: break-word;
     text-align: left;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 .desc-right{
     max-width: 30%;
@@ -60,6 +60,7 @@ a{
     height: auto;
     word-break: break-word;
     text-align: right;
+
 }
 .skill_gif{
     display: flex;
@@ -196,11 +197,16 @@ h1{
     background: #e4e2dd !important;
 }
 .owl-theme .owl-nav.disabled .owl-dots {
-    margin-top: -3rem !important;
     position: inherit;
     padding-bottom: 3.5rem;
+}
+.owl-theme .owl-nav {
+
 } 
-.line{
+.owl-nav .owl-prev{
+  
+}
+.line{      
     display: block;
     margin: auto;
 }
