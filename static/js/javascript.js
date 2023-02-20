@@ -7,6 +7,7 @@ $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop:true,
         nav: true,
+        navText: ["<img src='static/image/icon/myprevimage.png'>","<img src='static/image/icon/mynextimage.png'>"],
         responsive:{
             0:{
                 items:1
