@@ -505,4 +505,7 @@ h1{
         object-fit: contain;
         height: 208px;
     }
+    .owl-nav{
+        display: none;
+    }
 }
