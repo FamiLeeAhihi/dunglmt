@@ -200,6 +200,9 @@ h1{
     background: #747474 !important;
 
 }
+.owl-dots{
+    padding-top: 5px;
+}
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #e4e2dd !important;
 }
@@ -503,9 +506,18 @@ h1{
     }
     .item4{
         object-fit: contain;
-        height: 208px;
+        height: 190px !important;
     }
     .owl-nav{
         display: none;
     }
 }
+@media(max-width: 768px){
+        .owl-nav{
+            display: none;
+        }
+        .item4 {
+            object-fit: contain;
+            height: 410px;
+        }
+    }
