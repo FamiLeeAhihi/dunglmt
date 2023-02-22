@@ -485,4 +485,7 @@ h1{
         cursor: context-menu;
         font-size: 0.75rem;
     }
+    .separator1 {
+        width: 10rem;
+    }
 }
