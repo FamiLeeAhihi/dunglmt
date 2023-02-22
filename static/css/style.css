@@ -269,6 +269,10 @@ h1{
     object-fit: contain;
     height: 600px;
 }
+.item4{
+    object-fit: contain;
+    height: 600px;
+}
 .item2 {
     object-fit: contain;
     height: 800px;
@@ -487,5 +491,18 @@ h1{
     }
     .separator1 {
         width: 10rem;
+    }
+    .separator2 {
+        height: 4px;
+        background: #e4e2dd;
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    .intro {
+        font-size: 1rem;
+        padding: 2rem 0.5rem 2rem 0.5rem;
+    }
+    .item4{
+        object-fit: contain;
+        height: 208px;
     }
 }
