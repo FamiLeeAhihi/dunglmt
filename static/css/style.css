@@ -323,6 +323,8 @@ h1{
 }
 .contact a{
    padding-top: 1rem;
+   display: flex;
+    align-items: center;
 }
 .contact a span {
     color: #e4e2dd;
@@ -337,6 +339,26 @@ h1{
 .box-top{
     display: flex;
     justify-content: flex-end;
+}
+.owl-theme .owl-nav :hover {
+    background: none!important;
+    color: #FFF;
+    text-decoration: none;
+}
+.owl-theme .owl-nav {
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 100%;
+    z-index: 999;
+    margin-top: 0 !important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 0%;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 0%;
 }
 @media(max-width: 360px){
     .line-desc {
@@ -508,16 +530,23 @@ h1{
         object-fit: contain;
         height: 190px !important;
     }
-    .owl-nav{
-        display: none;
+    .owl-nav img{
+       height: 20px;
     }
 }
 @media(max-width: 768px){
-        .owl-nav{
-            display: none;
-        }
-        .item4 {
-            object-fit: contain;
-            height: 410px;
-        }
+    .owl-nav{
+        height: 16px;
+}
+.item4 {
+        object-fit: contain;
+        height: 410px;
     }
+    .owl-theme .owl-nav {
+        position: absolute;
+        top: calc(50% - 8px);
+        width: 100%;
+        z-index: 999;
+        margin-top: 0 !important;
+    }
+}
